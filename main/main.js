@@ -1,0 +1,1 @@
+var perguntaidade = document.ele

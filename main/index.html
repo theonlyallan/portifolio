@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Allan Lombarde Ramos</h1>
@@ -14,35 +16,50 @@
     </header>
 
     <nav>
-        <ul>
+        <ul id="nav">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#portfolio">Portfólio</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
 
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Coloque aqui uma breve descrição sobre você.</p>
-    </section>
-
-    <section id="portfolio">
-        <h2>Portfólio</h2>
-        <a href="https://theonlyallan.github.io/projeto-android/" target="_blank">Projeto Android</a> <br>
-        <a href="https://theonlyallan.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a>
-        <!-- Adicione seus projetos aqui -->
-    </section>
-
-    <section id="contato">
-        <strong>
-            <h2>Contato</h2>
-            <p>Email: ✉️ allanlombardeallan@gmail.com </p>
-            <p>Telefone: 📞 (16) 99325-4977</p>
-        </strong>
-    </section>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Adquirindo conhecimento nas seguintes areás:</p>
+            <div id="container">
+                <picture>
+                    <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank"><img src="imagens/html5.png"
+                            alt="logo-html5"></a>
+                    <a href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img
+                            src="imagens/css3.png" alt="logo-css3"></a>
+                    <a href="https://pt.wikipedia.org/wiki/JavaScript" target="_blank"><img src="imagens/javascript.png"
+                            alt="logo-javascript"></a>
+                    <hr>
+                </picture>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <p>Abaixo vão estar alguns projetos de site feitos com que eu aprendi até o momento.</p>
+            <div id="conteudo">
+                <a href="https://theonlyallan.github.io/projeto-android/" target="_blank"> <img src="imagens/android.ico" alt="" class="fotoprojeto">Projeto Android</a> <br>
+                <a href="https://theonlyallan.github.io/projeto-cordel/" target="_blank"> <img src="imagens/projeto-cordel.png" alt="" class="fotoprojeto">Projeto Cordel</a>
+            </div>
+            <!-- Adicione seus projetos aqui -->
+        </section>
+        <section id="contato">
+            <strong>
+                <h2>Contatos</h2>
+                <p>Email: ✉️ allanlombardeallan@gmail.com </p>
+                <p>Telefone: 📞 (16) 99325-4977</p>
+            </strong>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 Seu Nome</p>
+        <p>&copy; 2023 Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
